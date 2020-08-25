@@ -1,5 +1,14 @@
 <?php
 
+/** 
+ * Webhook created to test JSON values sent via GrooveSell.
+ * 
+ * 
+ * @author: Adrian Young-Hoon
+ * @version: 1.0
+ * 
+*/
+
 header('Content-Type: application/json');
 $request = explode('&', file_get_contents('php://input'));
 
