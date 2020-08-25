@@ -36,7 +36,7 @@ Here is a sample data of the JSON:
     "transaction_id": "0123456789",
     "invoice_id": "0123456789",
     "transaction_time": 1598324081,
-    "product_id": 13023,
+    "product_id": 12345,
     "product_name": "Groovy Product",
     "funnel_id": 10396,
     "funnel_name": "Groove Product Funnel",
