@@ -1,23 +1,23 @@
 # php-webhook-groovesell
 In GrooveSell a webhook can be configured in the Fulfillment step. This is a test webhook to explode the JSON values sent via GrooveSell.
 
-Upload the file rmm-groovesell.php to a web hosting server - Siteground, Hostgator, GoDaddy etc.
-Save the URL to this file. Example - https://www.yourdomain.com/rmm-groovesell.php
-
-In GrooveSell go to your Product Funnels.
-Select Actions -> Manage Products for the corresponding Product Funnel you wish to configure the webhook.
-Select the Edit icon of the Product you wish to edit.
-Click on the Fulfillment tab.
-In the Fulfillment section click on the Webhook tab.
-Enter the URL you saved above in the Webhook URL field and click on the Save button.
-Click on the Exit button.
+- Upload the file **rmm-groovesell.php** to a web hosting server - Siteground, Hostgator, GoDaddy etc. 
+- Save the URL to this file.    Example - https://www.yourdomain.com/rmm-groovesell.php
+- In GrooveSell go to your **Product Funnels**. 
+- Select **Actions** -> **Manage Products** for the corresponding Product Funnel you wish to configure the webhook.
+- Click the **Edit** icon of the Product you wish to edit.
+- Click on the **Fulfillment** tab.
+- In the Fulfillment section click on the **Webhook** tab.
+- Enter the URL you saved above in the **Webhook URL** field and click on the **Save** button.
+- Click on the **Exit** button.
 
 To execute the webhook you will need to complete a checkout process using either the GrooveSell Hosted Checkout or the Embedded Checkout.
+
 The JSON values will be written to a file called request.log on your web hosting server.
 
 Here is a sample data of the JSON:
 
-{
+>{
     "event": "sales",
     "mode": "live",
     "payment_processor": "stripe",
